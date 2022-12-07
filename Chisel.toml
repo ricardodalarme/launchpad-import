@@ -1,0 +1,5 @@
+
+models = ["models"]
+routes = ["routes"]
+policies = ["policies"]
+modules = "node"

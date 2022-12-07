@@ -1,0 +1,6 @@
+endpoints:
+  - path: /
+    mandatory_header:
+      name: "X-Token"
+      secret_value_ref: "TOKEN"
+      only_for_methods: ["POST", "PUT", "PATCH", "DELETE"]
